@@ -17,5 +17,7 @@ This repository is a sanitised overview intended to demonstrate evaluation think
 - `samples/test_cases_template.csv` – a simple test case template
 
 ## Notes
-This repo does not include any sensitive source policy documents.
+- This repo does not include any sensitive source policy documents.
+- Policy source used during development (public): https://assets.publishing.service.gov.uk/media/66ea893ee4b40ed591881cc2/2024-08-14_SPL_Having_a_baby_HMG_Issue_2.pdf
+
 
