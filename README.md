@@ -18,6 +18,23 @@ This repository is a sanitised overview intended to demonstrate evaluation think
 
 ## Notes
 - This repo does not include any sensitive source policy documents.
-- Policy source used during development (public): https://assets.publishing.service.gov.uk/media/66ea893ee4b40ed591881cc2/2024-08-14_SPL_Having_a_baby_HMG_Issue_2.pdf
+- Policy source used during development (public):
+  https://assets.publishing.service.gov.uk/media/6a4e187c92f65594cb0299bd/SPL_Having_a_baby_HMG_2026v0c.pdf
+  
+## How to Run
+
+Requires Python 3.10+ and an Anthropic API key. Run all commands below
+from the repository's root folder.
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Set your Anthropic API key as an environment variable:
+   export ANTHROPIC_API_KEY=your-key-here
+3. Download the policy PDF linked above and save it to:
+   data/policies/SPL_Having_a_baby_HMG_Issue_2.pdf
+4. Run the assistant interactively:
+   python app.py
+5. Run the full evaluation suite:
+   python eval_runner.py
+Results are written to `evals/hr_eval_results.csv`.
 
 
