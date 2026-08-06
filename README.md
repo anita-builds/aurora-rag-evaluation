@@ -32,7 +32,7 @@ from the repository's root folder.
 3. Download the policy PDF linked above and save it to:
    data/policies/SPL_Having_a_baby_HMG_Issue_2.pdf
 4. Run the assistant interactively:
-   python app.py
+   python3 app.py
 5. Run the full evaluation suite:
-   python eval_runner.py
+   python3 eval_runner.py
 
